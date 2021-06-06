@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rewards-container {
+  text-align: center;
+}
+
+.header {
+  background-color: darkslategray;
+  color: white;
+  padding: 12px 0px;
+  margin: 0px 0px 8px 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: darkslateblue;
+  color: white;
+  border: solid 1px white;
+  border-radius: 12px;
+  padding: 4px;
+  margin: 8px;
+}
+
+.button.selected {
+  background-color: white;
+  color: darkslateblue;
+  border: solid 1px darkslateblue;
+}
+
+.app-body {
+  width: 60%;
+  margin: auto;
+}
+
+.customer-name {
+  color: darkslateblue;
+  text-decoration: underline;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px;
+  border-bottom: 1px solid lightgrey;
+}
